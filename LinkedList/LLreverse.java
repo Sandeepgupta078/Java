@@ -1,3 +1,4 @@
+package LinkedList;
 import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedList;
@@ -38,13 +39,13 @@ class LLreverse{
         head = prevNode;
     }
     public static void main(String args[]){
-        Linkedlist<Integer> list = new Linkedlist<>();
+        LinkedList<Integer> list = new LinkedList<>();
         list.add(1);
         list.add(2);
         list.add(3);
         list.add(4);
         System.out.println(list);
-         reverseIterate();
+        //  reverseIterate();
         System.out.println(list); 
     }
 }

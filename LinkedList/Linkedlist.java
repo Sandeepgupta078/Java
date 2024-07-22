@@ -1,3 +1,4 @@
+package LinkedList;
 public class Linkedlist {
 
     public static class Node {
@@ -195,6 +196,8 @@ public class Linkedlist {
         }
         return true;
     }
+
+    
 
     public static boolean isCycle() {
         Node slow = head;
