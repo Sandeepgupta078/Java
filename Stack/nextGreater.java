@@ -94,7 +94,7 @@ public class nextGreater {
 
         for(int i = 0; i<= arr.length-1; i++){
              
-            while(!s.isEmpty() && (arr[s.peek()] <= arr[i])){
+            while(!s.isEmpty() && (arr[s.peek()] >= arr[i])){
                 s.pop();
             }
             if (s.isEmpty()) {
